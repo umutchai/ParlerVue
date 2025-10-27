@@ -19,7 +19,7 @@ const Hero = () => {
           playsInline
           className="absolute inset-0 w-full h-full object-cover"
         >
-          <source src="/ParlerVue.mp4" type="video/mp4" />
+          <source src="/ParlerVueYeni.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="absolute inset-0 bg-black/60"></div>

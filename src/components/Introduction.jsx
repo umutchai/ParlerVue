@@ -16,8 +16,8 @@ const Introduction = () => {
                 About ParlerVue
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                ParlerVue is an innovative assistive technology solution designed to empower 
-                individuals with paralysis and speech impairments. By combining cutting-edge 
+              ParlerVue is an assistive communication system designed to empower individuals with severe motor impairments,
+               including ALS patients, who are unable to communicate verbally. By combining cutting-edge 
                 eye-tracking technology with advanced artificial intelligence, we create a 
                 seamless communication experience.
               </p>

@@ -67,14 +67,34 @@ const Documents = () => {
             {/* PDF Viewer */}
             {showPdf && (
               <div className="mt-8">
-                <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-                  <div className="h-96">
+                <div className="bg-white rounded-lg shadow-lg overflow-hidden border-2 border-gray-200">
+                  <object
+                    data="/ProjectProposal.pdf"
+                    type="application/pdf"
+                    width="100%"
+                    height="600"
+                    className="block"
+                  >
                     <iframe
-                      src="/ProjectProposalll.pdf"
-                      className="w-full h-full border-0"
+                      src="/ProjectProposal.pdf"
+                      width="100%"
+                      height="600"
+                      className="border-0"
                       title="Project Proposal PDF"
-                    />
-                  </div>
+                    >
+                      <p className="p-8 text-center">
+                        Your browser does not support PDF viewing. 
+                        <a 
+                          href="/ProjectProposal.pdf" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-indigo-600 hover:text-indigo-800 underline ml-2"
+                        >
+                          Click here to download the PDF
+                        </a>
+                      </p>
+                    </iframe>
+                  </object>
                 </div>
               </div>
             )}
@@ -86,4 +106,3 @@ const Documents = () => {
 };
 
 export default Documents;
-
